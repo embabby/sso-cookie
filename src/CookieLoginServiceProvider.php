@@ -1,6 +1,6 @@
 <?php
 
-namespace SSOCookie;
+namespace SSO\CookieLogin;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class CookieLoginServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('SSOCookie\CookieLoginController');
+        //
     }
 
     /**
@@ -23,6 +23,6 @@ class CookieLoginServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/routes.php';
+        //
     }
 }

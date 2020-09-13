@@ -1,20 +1,17 @@
 {
-    "name": "embaby/sso-cookie",
+    "name": "embaby/cookie-login",
     "description": "sso login using cookies",
-    "require": {
-        "guzzlehttp/guzzle": "^7.1@dev"
-    },
     "license": "MIT",
     "authors": [
         {
-            "name": "mohamed nabil",
+            "name": "Mohamed Nabil",
             "email": "mohamed.nabil@cultiv.llc"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "SSOCookie\\": "src/"
+            "SSO\\CookieLogin\\": "src/"
         }
     }
 }

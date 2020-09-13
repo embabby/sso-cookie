@@ -1,6 +1,6 @@
 <?php 
 
-namespace SSOCookie\Models;
+namespace SSO\CookieLogin\Models;
 use Illuminate\Database\Eloquent\Model;
 
 use Cookie;
